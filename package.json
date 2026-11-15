@@ -1,0 +1,10 @@
+{
+  "name": "earth-information-jukebox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NASA Earth Information Jukebox — 2026 NASA Space Apps Challenge",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "npm --prefix frontend run preview"
+  }
+}
