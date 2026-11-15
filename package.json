@@ -4,7 +4,7 @@
   "private": true,
   "description": "NASA Earth Information Jukebox — 2026 NASA Space Apps Challenge",
   "scripts": {
-    "build": "npm --prefix frontend install && npm --prefix frontend run build",
-    "start": "npm --prefix frontend run preview"
+    "build": "cd frontend && npm install && npm run build",
+    "preview": "cd frontend && npm run preview"
   }
 }
