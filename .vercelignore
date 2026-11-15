@@ -1,6 +1,13 @@
 # Vercel Deployment Exclusions
-# The backend is a persistent FastAPI service hosted on Render/Railway/Fly.io
+# Ignore backend completely so Vercel never parses Python or requirements.txt
+backend
 backend/
+**/requirements.txt
+requirements.txt
+**/*.py
+**/*.pyc
+**/venv
+**/.venv
 docs/
 screenshots/
 scripts/
