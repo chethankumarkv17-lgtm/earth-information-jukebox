@@ -1,0 +1,11 @@
+# Vercel Deployment Exclusions
+# The backend is a persistent FastAPI service hosted on Render/Railway/Fly.io
+backend/
+docs/
+screenshots/
+scripts/
+DEMO_SCRIPT.md
+PRESENTATION.md
+SECURITY_AUDIT.md
+DEPLOYMENT_CHECKLIST.md
+PRODUCTION_READINESS.md
